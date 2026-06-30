@@ -15,6 +15,7 @@
     <nav class="nav-links" id="navLinks">
       <a href="index.html" class="active">About</a>
       <a href="activities.html">Activities</a>
+      <a href="#ai-survey">AI Survey</a>
     </nav>
   </header>
 
@@ -65,6 +66,29 @@
       <div class="card">
         <h3>Goal</h3>
         <p>To create clean and helpful digital products.</p>
+      </div>
+    </section>
+
+    <section class="section ai-survey" id="ai-survey">
+      <div class="survey-panel">
+        <div>
+          <p class="eyebrow">AI Survey Service</p>
+          <h2>AI 에이전트 설문서비스</h2>
+          <p>
+            궁금한 점을 남기면 AI 에이전트가 질문을 분석하고,
+            입력한 이메일로 답변을 받을 수 있습니다.
+          </p>
+        </div>
+
+        <form id="contactForm" class="survey-form">
+          <input type="text" id="visitorName" placeholder="이름" required>
+          <input type="email" id="visitorEmail" placeholder="이메일" required>
+          <textarea id="visitorMessage" placeholder="AI 에이전트에게 할 질문을 입력하세요" required></textarea>
+
+          <button type="submit" class="btn primary">AI 에이전트에게 질문하기</button>
+        </form>
+
+        <div id="responseMessage" class="response-message"></div>
       </div>
     </section>
   </main>

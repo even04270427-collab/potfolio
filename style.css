@@ -194,6 +194,68 @@ body {
   font-weight: 700;
 }
 
+.ai-survey {
+  padding-top: 24px;
+  padding-bottom: 64px;
+}
+
+.survey-panel {
+  display: grid;
+  gap: 22px;
+  background: white;
+  border-radius: 8px;
+  padding: 32px;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+}
+
+.survey-panel h2 {
+  margin-bottom: 10px;
+}
+
+.survey-panel p {
+  color: #4b5563;
+}
+
+.survey-form {
+  display: grid;
+  gap: 14px;
+}
+
+.survey-form input,
+.survey-form textarea {
+  width: 100%;
+  border: 1px solid #dbe3f0;
+  border-radius: 6px;
+  padding: 13px 14px;
+  font: inherit;
+  color: #1f2937;
+  background: #ffffff;
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.survey-form textarea {
+  min-height: 130px;
+  resize: vertical;
+}
+
+.survey-form input:focus,
+.survey-form textarea:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.12);
+}
+
+.survey-form button {
+  border: none;
+  cursor: pointer;
+}
+
+.response-message {
+  display: none;
+  margin-top: 4px;
+  font-weight: 700;
+}
+
 footer {
   text-align: center;
   padding: 24px;
